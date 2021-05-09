@@ -44,12 +44,19 @@ const determineWinner = (userChoice, computerChoice) => {
 }
 
 const playGame = () => {
-  let userChoice = getUserChoice('bomb');
+  let userChoice = getUserChoice('rock');
   console.log(`User Choice is ${userChoice}`);
   let computerChoice = getComputerChoice();
   console.log(`Computer Choice is ${computerChoice}`);
   console.log(determineWinner(userChoice, computerChoice));
 }
+
+
+
+
+
+
+
 
 playGame();
 
