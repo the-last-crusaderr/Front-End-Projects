@@ -19,7 +19,7 @@ const getComputerChoice = () => {
 
 
 const determineWinner = (userChoice, computerChoice) => {
-  if (userChoice === 'bomb')
+  if (userChoice === 'paper')
     return 'User Won';
   if (userChoice === computerChoice)
     return 'Game was a tie';
