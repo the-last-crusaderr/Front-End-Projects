@@ -1,6 +1,6 @@
 let raceNumber = Math.floor(Math.random() * 1000);
 let isRegisteredEarly = true;
-let age = 32;
+let age = 17;
 
 if (isRegisteredEarly && age> 18){
       raceNumber += 1000;
