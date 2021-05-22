@@ -37,6 +37,10 @@ class Primary extends School{
     super(name,level,numberOfStudents);
     this._pickupPOlicy = pickupPolicy;
   }
+
+  get pickupPolicy(){
+    return this._pickupPolicy;
+  }
 }
 
 class Middle extends School{
@@ -49,5 +53,9 @@ class High extends School{
   constructor(name,level,numberOfStudents,sportsTeam){
     super(name,level,numberOfStudents);
     this._sportsTeam = sportsTeam;
+  }
+
+  get sportsTeam(){
+    return this._sportsTeam;
   }
 }
