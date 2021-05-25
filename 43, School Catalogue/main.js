@@ -26,7 +26,7 @@ class School{
   }
 
   pickSubstituteTeacher(){
-    let teachers = ['Adam','Mike','Smith','Henry'];
+    let teachers = ['Adam','Mike','Smith','Henry']
     console.log('Pick one from ${teachers}');
   }
 }
